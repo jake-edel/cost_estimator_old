@@ -1,0 +1,9 @@
+{
+  "flight0": {
+    "landingLength": "#valueof($.flights[0].landingLength)",
+    "landingWidth": "#valueof($.flights[0].landingWidth)",
+    "test_add":"#add(10,10)",
+    "test2":"#add(#valueof($.flights[0].landingWidth),10)",
+    //"landingArea":"#multiply(#valueof($.flights[0].landingLength),#valueof($.flights[0].landingWidth))"
+  }
+}

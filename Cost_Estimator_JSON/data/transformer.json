@@ -1,7 +1,0 @@
-{
-  "flight0": {
-    "Landing Length": "#valueof($.flights[0].landingLength)",
-    "Landing Width": "#valueof($.flights[0].landingWidth)",
-    "Landing Area": ""
-  }
-}

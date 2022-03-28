@@ -14,7 +14,7 @@ namespace JUST.Test
         {
             string input = File.ReadAllText("/Users/Jake/source/repos/Cost_Estimator/Cost_Estimator_JSON/data/stair_configuration.json");
 
-            string transformer = File.ReadAllText("/Users/Jake/source/repos/Cost_Estimator/Cost_Estimator_JSON/data/transformer.json"); ;
+            string transformer = File.ReadAllText("/Users/Jake/source/repos/Cost_Estimator/Cost_Estimator_JSON/data/landing_transformer.json"); ;
 
             string transformedString = JsonTransformer.Transform(transformer, input);
 
